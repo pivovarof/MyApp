@@ -8,3 +8,16 @@
     align-items: center;
     
 }
+
+.wrapMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapLogo{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}

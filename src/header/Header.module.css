@@ -1,8 +1,12 @@
+.wrapper{
+    width: 100vw;
+    display: grid;
+}
+
 .conteiner{
     background: linear-gradient(to right, #8A38AA, #FD1D1D, #FCA341);
     width: 100%;
-    height: 35px;
-    padding: 0 50px;
+    height: 35px;    
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
