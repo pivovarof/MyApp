@@ -1,0 +1,31 @@
+.conteiner{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.wrap_content{
+    display: grid;
+    grid-template-areas: 'post adv';    
+    max-width: 1200px;
+    
+}
+
+.post_wrap{
+    grid-area: post;
+    
+}
+
+.post{
+    margin-top: 20px;
+}
+
+.adv_menu{
+    grid-area: adv;
+}
+
+.block{
+    width: 300px;
+    height: 230px;
+    border: solid 2px black;
+}

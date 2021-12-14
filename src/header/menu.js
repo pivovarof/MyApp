@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import MenuCss from './menu.module.css'
 
 function Menu(){
@@ -5,10 +6,10 @@ function Menu(){
     return(
         <div className={MenuCss.wrapNavmenu}>
         <div className={MenuCss.navmenu}>
-            <a href="#" className={MenuCss.item}>Home</a>
+            <Link to="/post" className={MenuCss.item}>Home</Link>
             <a href="#" className={MenuCss.item}>About us</a>
             <a href="#" className={MenuCss.item}>Contacts</a>
-            <a href="#" className={MenuCss.item}>Store</a>
+            <Link to="/fullPost" className={MenuCss.item}>Store</Link>
         </div>
         </div>
     )
