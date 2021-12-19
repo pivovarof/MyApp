@@ -8,7 +8,7 @@ function Post(){
         <div className={PostCss.content}>
             
                 <div className={PostCss.img_post}>
-                    <a href="/fullPost">
+                    <a href="#">
                         <img src={logo} alt="logo" />
                     </a>
                 </div>

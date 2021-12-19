@@ -1,0 +1,50 @@
+.sectionfoot{
+    width: 100%;
+    background-color: black;
+    margin-top: 80px;
+    display: grid;
+    
+   
+}
+
+.footwrap p, .footwrap a {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footwrap{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+
+.foottop{
+    padding: 50px 0 30px;
+    display: grid;
+    justify-content: center;
+}
+
+.footbut{
+    border-top: .5px solid #76766F;
+    color: white;
+}
+
+.footbutwrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+}
+
+.footcopy, .footicon{
+    text-align: center;
+    font-size: 14px;
+}
+
+.footcopy i{
+    font-size: 12px;
+
+}
+
+.footicon i{
+    color: rgb(170, 26, 26);
+}

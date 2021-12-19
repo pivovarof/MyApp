@@ -2,8 +2,7 @@ import Header from './header/Header';
 import Content from './content/Content';
 import './App.css';
 import {BrowserRouter,Route,Routes} from "react-router-dom"
-import FullPost from './content/FullPost';
-import Post from './content/Post/Post';
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         <div className='conteiner'>
           <Header />
           <Content/>
-          
+          <Footer/>       
             
           
         </div>

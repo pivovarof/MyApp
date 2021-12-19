@@ -1,13 +1,13 @@
 import FullPostCss from "./FullPost.module.css"
 import logo13 from "./iphone13.jpg"
 
-function FullPost(){
+function FullPost(s){
 
     return(
     
         <div className={FullPostCss.wrap}>
             
-               <h1>Lorem ipsum dolor sit amet.</h1>
+               <h1>Lorem ipsum dolor sit amet. {s.message}</h1>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                    Dignissimos repellat quaerat consectetur eum doloremque harum ipsa recusandae 
                    repellendus quae iure voluptas vitae sequi, fugiat mollitia consequuntur, perspiciatis 

@@ -1,7 +1,7 @@
 import HeaderCss from'./Header.module.css'
 import Menu from './menu';
 import DownStrip from './downStrip/DownStrip';
-import Carusel from './Carusel/Carusel';
+
 
 function Header(){
 
@@ -16,7 +16,7 @@ function Header(){
         </div>        
     </div>
     <DownStrip></DownStrip>
-    <Carusel/>
+    
     </div>  
     </>
     )
